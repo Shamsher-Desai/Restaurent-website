@@ -1,0 +1,139 @@
+/* A HTML PROJECT BY SHAMSHER QUTBODDIN DESAI USING CSS IN WINDOWS 7*/
+body{
+    background-color:chocolate;
+    font-family: fantasy;
+}
+header{
+    width: 80;
+    margin: auto;
+    overflow: hidden;
+    color: blueviolet;
+}
+/* HERE WE ARE USING THE HOVER FUNCTION SO WHEN A MOUSE OVER HAPPENS A ACTION IS DEFINED*/
+h1:hover{
+    background-color: blueviolet;
+    font-size: 40px;
+}
+.head{
+    float: left;
+    color: seagreen;
+    font-family: serif;
+}
+/* HERE WE ARE APPLYING THE CSS TO THE UNORDERED LIST TO SHOW THEN AS A MENU BAR*/
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+nav{
+    float: right;
+    color: aqua;
+}
+li{
+    display: inline;
+    padding: 2rem;
+    float: right;
+}
+li a{
+    color: aliceblue;
+    text-decoration:none;
+    font-weight: bold;
+    float: right;
+}
+nav:hover{
+    background-color: white;
+    font-size: 20px;
+}
+.active{
+    color: gold;
+}
+/*THIS IS A CLASS TYPE APPLIED TO ALL THE BUTTON IN LINKED HTML FILES*/
+.button{
+    background-color: red;
+    padding: 1rem;
+    border: 1px;
+    border-radius: 9px;
+    margin-left: 8px;
+    align-content: center;
+}
+.contains{
+    margin: auto;
+    overflow: hidden;
+    margin-top: 2%;
+}
+.contains:hover{
+    background-color: violet;
+}
+
+h2{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-family: cursive;
+}
+showcase{
+    color: maroon;
+    text-align: center;
+    letter-spacing: 2px;
+    align-content: center;
+}
+p{
+    color: black;
+    font-size: 1rem;
+}
+.TYPES OF DISHES:hover{
+    color: white;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    font-family: inherit;
+}
+.MUDDE OOTA{
+    padding: 2rem;
+    background-color: greenyellow;
+    align-content: center;
+}
+.MUTTON RICE{
+    padding: 2rem;
+    background-color: red;
+    align-content: center;
+}
+.MUTTON SAMBER{
+    padding: 2rem;
+    align-content: center;
+}
+h4{
+    font-size: 1rem;
+    margin: 3%;
+    color: khaki;
+}
+h3{
+    font-size: 1rem;
+    margin: 2%;
+    color: black;
+}
+img{
+    width:30%;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 45%;
+    padding: 3px;
+}
+img:hover{
+    width: 40%;
+    border-radius:45%;
+    padding: 4px;
+}
+/*CSS TO FOOTER OF ALL THE PAGES TO MAKE VISUALLY APPLEALING*/
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20%
+    background-color: white;
+    color: black;
+    text-align: center;
+}
